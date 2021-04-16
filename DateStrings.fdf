@@ -1,0 +1,35 @@
+﻿/*
+ *  Date and Time Strings
+ *  ---------------------
+ *
+ *  This file contains all strings that relate to date and time.
+ *
+ */
+
+StringList {
+
+    // --- months
+    MONTH_01        "一月",
+    MONTH_02        "二月",
+    MONTH_03        "三月",
+    MONTH_04        "四月",
+    MONTH_05        "五月",
+    MONTH_06        "六月",
+    MONTH_07        "七月",
+    MONTH_08        "八月",
+    MONTH_09        "九月",
+    MONTH_10        "十月",
+    MONTH_11        "十一月",
+    MONTH_12        "十二月",
+
+    // --- days of the week (Sun,Mon,Tue,Wed,Thu,Fri,Sat)
+    DAY_01          "星期天",
+    DAY_02          "星期一",
+    DAY_03          "星期二",
+    DAY_04          "星期三",
+    DAY_05          "星期四",
+    DAY_06          "星期五",
+    DAY_07          "星期六",
+
+}
+

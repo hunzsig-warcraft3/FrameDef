@@ -1,0 +1,169 @@
+﻿/*
+ *  Network Strings
+ *  ---------------
+ *
+ *  This file contains all strings that can be displayed in response to network activity.
+ *
+ */
+
+StringList {
+
+    // --- network error message (map to error id)
+    ERROR_ID_INVALIDPARAMS              "您所提供的参数是无效的。",
+    ERROR_ID_AUTOCANCEL                 "战网已经自动取消了该请求。",
+    ERROR_ID_BADPROVIDER                "操作失败，原因是当前网络连接无效。",
+    ERROR_ID_NOTINITIALIZED             "操作失败，原因是当前网络连接未初始化。",
+    ERROR_ID_ALREADYINITIALIZED         "操作失败，原因是网络连接已经初始化。",
+    ERROR_ID_GAMEPORTINUSE              "另一个程序正在使用必需的游戏端口，请退出其它程序并重试。",
+    ERROR_ID_GAMENOTFOUND               "未找到游戏。",
+    ERROR_ID_GAMEUNJOINABLE             "指定游戏无法加入。",
+    ERROR_ID_GAMEFULL                   "指定游戏人数已满，或者创建者已经关闭了所有位置。",
+    ERROR_ID_GAMECLOSED                 "指定游戏已经开始。",
+    ERROR_ID_CANTCONNECT                "无法连接。",
+    ERROR_ID_DISCONNECT                 "您到战网的连接已经中断。",
+    ERROR_ID_NOTCONNECTED               "操作无法完成，因为您并未连接。",
+    ERROR_ID_NOTIMPLEMENTED             "这项功能还未完成。",
+    ERROR_ID_VERSION_BAD                "无法验证游戏版本。请重新连接战网，或手动升级到最新的版本。",
+    ERROR_ID_CDKEY_INVALID              "您所提供的CD key是无效的。",
+    ERROR_ID_CDKEY_INUSE                "您所提供的CD key正在被%s使用。",
+    ERROR_ID_CDKEY_DISABLED             "您所提供的CD key已经禁用。",
+    ERROR_ID_CDKEY_MISMATCH             "您所提供的CD key并非本产品所用的。",
+    ERROR_ID_BADSERVER                  "操作失败，原因是指定服务器无效。",
+    ERROR_ID_UNKNOWNACCOUNT             "该账号并不存在。|n|n《魔兽争霸III》要求一个新的战网账号。|n|n请选择'创建新账号'以新建一个账号。",
+    ERROR_ID_UNSUPPORTEDACCOUNT         "指定的账号未被《魔兽争霸III》支持。|n|n请选择“创建新账号”来建立一个新的账号。",
+    ERROR_ID_BADPASSWORD                "密码错误，请重试。",
+    ERROR_ID_BADCDKEY                   "您所提供的CD key是无效的。",
+    ERROR_ID_NAMEUSED                   "指定的账号名已被使用，请重新选择一个。",
+    ERROR_ID_NAMEBLANK                  "未指定账号名。请输入一个账号名。",
+    ERROR_ID_NAMEBADCHARS               "指定的账号名包含无效字符。",
+    ERROR_ID_NAMEBADWORD                "指定的账号名包含无效单词。",
+    ERROR_ID_NEEDALPHACHARS             "指定的账号名字数不够。",
+    ERROR_ID_ADJACENTPUNCT              "指定的账号名过长。",
+    ERROR_ID_TOOMANYPUNCT               "指定的账号名过长。",
+    ERROR_ID_NOTLOGGEDON                "操作无法完成，原因是您并未登陆。",
+    ERROR_ID_NOTINCHAT                  "操作失败，原因是您不在聊天室中。",
+    ERROR_ID_UPGRADEFAILED              "在升级时发生错误。",
+    ERROR_ID_FLOODDETECTED              "监测到网络溢出。|n|n您已经断开了到战网的连接。",
+    ERROR_ID_GAMETYPEDISABLED           "所选的游戏类型已被禁用。",
+    ERROR_ID_GAMECREATEFAILED           "创建游戏失败。",
+    ERROR_ID_REQUESTDENIED              "指定操作被拒绝。",
+    ERROR_ID_ANONFINDFAILED             "战网无法找到适合您的游戏。请稍候并重试。",
+    ERROR_ID_ANONFINDCANCELLED          "匿名游戏搜索已被取消。",
+    ERROR_ID_ANONFINDBADVERSION         "战网游戏类型已升级。|n|n请重新设置您的游戏偏好并点击“进行游戏”。",
+    ERROR_ID_DOWNLOADFAILED             "在试图从战网下载文件时发生错误。",
+    ERROR_ID_DOWNLOADFAILED_BADSIZE     "您的硬盘空间不足，无法从战网下载文件。请清理硬盘并重试。",
+    ERROR_ID_DOWNLOADFAILED_WRITE       "在写硬盘时发生错误。您可能需要清理硬盘。请检查硬盘并重试。",
+    ERROR_ID_FILENOTFOUND               "未找到所需的文件。", 
+
+    // --- miscellaneous error messages
+    NETERROR_NOUSERNAME                 "请输入账号名。",
+    NETERROR_NOPASSWORD                 "请输入密码。",
+    NETERROR_LOGINNOUSERNAME            "请输入您的账号名。",
+    NETERROR_LOGINNOPASSWORD            "请输入您的密码。",
+    NETERROR_REPEATPASSWORD             "请重复您的密码。",
+    NETERROR_PASSWORDMISMATCH           "两次输入的密码不匹配。",
+    NETERROR_USERNAMEPASSWORD           "您的密码不应与账号名相同。",
+    NETERROR_USERNAMETOOSHORT           "您的账号名必须有至少三个字符。",
+    NETERROR_PASSWORDTOOSHORT           "您的密码必须至少有三个字符。",
+    NETERROR_NEWPASSWORDTOOSHORT        "您的新密码必须至少有三个字符。",
+    NETERROR_NOCURRENTPASSWORD          "请输入您的当前密码。",
+    NETERROR_NONEWPASSWORD              "请输入新的密码。",
+    NETERROR_REPEATNEWPASSWORD          "请重复新的密码。",
+    NETERROR_NEWPASSWORDMISMATCH        "两次输入的新密码不匹配。",
+    NETERROR_NEWUSERNAMEPASSWORD        "您的新密码不应与账号名相同。",
+    NETERROR_DEFAULTERROR               "在处理要求时发生错误。",
+    NETERROR_NOGAMESPECIFIED            "您必须指定游戏加入。",
+    NETERROR_NOMAPSELECTED              "您必须选择一张地图。",
+    NETERROR_NOREPLAYSELECTED           "您必须选择一场录像。",
+    NETERROR_NOSAVEDGAMESELECTED        "您必须选择一个游戏存档。",
+    NETERROR_MAPLOADERROR               "在试图读取所选地图时发生错误。|n|n该地图不可用或已损坏。",
+    NETERROR_NOGAMENAMESPECIFIED        "您必须指定游戏名以新建一个游戏。",
+    NETERROR_EMPTYGAMENAMESPECIFIED     "游戏名不能全由空格组成。|n|n请输入包含可见字符的游戏名。",
+    NETERROR_CREATEGAMEFAILED           "无法创建游戏。|n|n可能已有同名游戏，或您所选的游戏名无法被接受。",
+    NETERROR_JOINGAMEFAILED             "无法加入指定游戏。|n|n请重试或选择另一个游戏。",
+    NETERROR_NOREALMSELECTED            "请选择一个网关。",
+    NETERROR_COULDNOTCONNECT            "无法连接到网络。",
+    NETERROR_CUSTOMGAMEDISABLED         "自定义游戏已被禁用。|n|n请另选一种游戏模式或稍后重试。",
+    NETERROR_STANDARDGAMEDISABLED       "标准游戏已被禁用。|n|n请另选一种游戏模式或稍后重试。",
+    NETERROR_JOINGAMENOTFOUND           "您所要加入的游戏无法找到。|n|n您可能输入了错误的游戏名或该游戏已被取消。",
+    NETERROR_CANTCONNECTBNET            "无法连接到战网。|n|n您可能正在尝试连接到一个无效的战网服务器。如果您使用的是调制解调器，请在连接战网之前手动连接到国际互联网。",
+	NETERROR_CANTLOADREPLAYFILE         "无法读取录像文件。",
+	NETERROR_CANTLOADREPLAYDATA         "无法读取录像数据。",
+	NETERROR_CANTLOADREPLAYMAP          "与录像关联的地图文件无法读取。|n|n请确认地图文件 '%s' 存在并重试。",
+	NETERROR_BADREPLAYVERSION           "此录像数据是另一个版本的《魔兽争霸III》所用的。",
+    NETERROR_NOCHANNELNAME              "请输入频道名称以加入。",
+    NETERROR_TEAMMUSTBEFULL             "除非所有的队友都接受您的邀请，否则您无法开始搜索游戏。",
+    NETERROR_NOGAMETYPESELECTED         "请选择游戏类型。",
+    NETERROR_JOINTEAMGAMENOTFOUND       "您所要加入的组队游戏无法找到。|n|n游戏创建者可能已取消游戏，或其他队友拒绝加入游戏。",
+    NETERROR_JOINTEAMCANTCONNECT        "无法加入队伍。|N|N这可能是因为游戏创建者的电脑设置为拒收接入的连接，|N|N或者是因为防火墙的关系，您无法发送邀请回应。请确保您的防火墙软件允许通过游戏端口送出连接。",
+    NETERROR_NOPLAYERNAMESPECIFIED      "请输入玩家名。",
+    NETERROR_MAPAUTHFAILED              "无法认证地图。",
+    NETERROR_MAPFILEBADSIZE             "地图文件过大，请选择另一张地图。",
+    NETERROR_MAPFILENOTFOUND            "无法找到地图文件。",
+    NETERROR_MAPFILEREAD                "在读取地图文件时发生错误。",
+    NETERROR_MAPFILEINCOMPLETE          "在下载地图文件时发生错误。",
+    NETERROR_MAPFILEWRITE               "在写入地图文件时发生错误。",
+    NETERROR_MAPFILENAMEINVALID         "地图文件名过长或包含无效字符。",
+    NETERROR_TEAMMATECOUNT              "您必须邀请至少一个队友。",
+    NETERROR_WOULDFLOOD                 "您向战网发送命令的频率过高，可能因此被战网强行断开连接，请小心行事。",
+    NETERROR_SAVEGAMENOTFOUND           "指定游戏要求的存盘文件无法找到。",
+    NETERROR_BADMAP                     "一个或多个暴雪官方地图已丢失或被破坏，请重装游戏。",
+    NETERROR_DIFFERENTSAVEFILE          "您的存盘文件与游戏创建者的不同。|n|n该文件可能已被损坏。",
+    NETERROR_WRONGMAPINSAVEFILE         "该存盘文件使用的地图文件与您硬盘上的同名地图文件不同。",
+	
+    // --- misc net messages
+    NETMESSAGE_ACCOUNTCREATE            "您的账号已被创建。|n|n请点击“好”以使用您的新账号登陆战网。",
+    NETMESSAGE_PASSWORDCHANGE           "您的密码已被更改。",
+    NETMESSAGE_ANONFINDREQUEST          "正在发出搜索游戏请求…",
+    NETMESSAGE_ANONFINDINPROGRESS       "正在搜索合适的游戏…",
+    NETMESSAGE_ANONFINDFOUND            "已找到合适的游戏。",
+    NETMESSAGE_ANONFINDCANCELING        "正在取消搜索…",
+    NETMESSAGE_ANONJOINWAIT             "正在等待其他玩家…",
+    NETMESSAGE_ANONJOINTIMEOUT          "无法加入游戏，因为未找到其他玩家。|n|n请重新搜索。",
+    NETMESSAGE_PLAYERJOINED             "|CFFAAAAAA%s 已加入游戏。",
+    NETMESSAGE_PLAYERLEFT               "|CFFAAAAAA%s 已离开游戏。",
+    NETMESSAGE_NOPROFILE                "该账号无档案。",
+
+    // --- chatdisplay colors
+    CHATCOLOR_TALK_USER                 "|CFFFED312",
+    CHATCOLOR_TALK_MESSAGE              "|CFFFFFFFF",
+    CHATCOLOR_WHISPER_USER              "|CFFFED312",
+    CHATCOLOR_WHISPER_MESSAGE           "|CFF00FF00",
+    CHATCOLOR_WHISPERSENT_USER          "|CFFFED312",
+    CHATCOLOR_WHISPERSENT_MESSAGE       "|CFF00FF00",
+    CHATCOLOR_INFO_MESSAGE              "|CFF80D8FF",
+    CHATCOLOR_BROADCAST_MESSAGE         "|CFF80D8FF",
+    CHATCOLOR_EMOTE_MESSAGE             "|CFF888888",
+    CHATCOLOR_ERROR_MESSAGE             "|CFFFF0000",
+
+    // --- chatdisplay messages (map to chatevent id)
+    CHATEVENT_ID_TALK                   "%s%s:|R %s%s |R",
+        // 1:CHATCOLOR_TALK_USER
+        // 2:<username>
+        // 3:CHATCOLOR_TALK_MESSAGE
+        // 4:<message>
+    CHATEVENT_ID_WHISPER                "%s%s 私语道:|R %s%s |R",
+        // 1:CHATCOLOR_WHISPER_USER
+        // 2:<username>
+        // 3:CHATCOLOR_WHISPER_MESSAGE
+        // 4:<message>
+    CHATEVENT_ID_WHISPERSENT            "%s你向%s私语道:|R %s%s |R",
+        // 1:CHATCOLOR_WHISPERSENT_USER
+        // 2:<username>
+        // 3:CHATCOLOR_WHISPERSENT_MESSAGE
+        // 4:<message>
+    CHATEVENT_ID_INFORMATION            "%s%s |R",
+        // 1:CHATCOLOR_INFO_MESSAGE
+        // 2:<message>
+    CHATEVENT_ID_BROADCAST              "%s%s |R",
+        // 1:CHATCOLOR_BROADCAST_MESSAGE
+        // 2:<message>
+    CHATEVENT_ID_EMOTE                  "%s%s %s |R",
+        // 1:CHATCOLOR_EMOTE_MESSAGE
+        // 2:<username>
+        // 3:<message>
+    CHATEVENT_ID_ERROR                  "%s%s |R",
+        // 1:CHATCOLOR_ERROR_MESSAGE
+        // 2:<message>
+}
+
